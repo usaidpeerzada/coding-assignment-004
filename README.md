@@ -1,8 +1,13 @@
-# React + Vite
+# Task management assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Introduction
 
-Currently, two official plugins are available:
+- This task management assignment has been created using Vite-ReactJS, state is managed by Redux, styling by TailwindCSS.
+- For backend, fastify for nodejs has been used, for data persistance mongodb has been used.
+- I chose fastify-mongodb package over mongoose simply because of it's specific compatibility with fastify and how less boilerplate code we have to write with it as compared to mongoose.
+  
+### To run this project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- clone the GitHub repo.
+- open the terminal and type `npm install`
+- After the dependencies have been installed run `npm run dev` for frontend and `npm run server` (make sure that you have node installed).
